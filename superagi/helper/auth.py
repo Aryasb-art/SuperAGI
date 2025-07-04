@@ -1,4 +1,3 @@
-from starlette.requests import Request
 from fastapi import Depends, HTTPException, Header, Security, status
 from fastapi.security import APIKeyHeader
 from fastapi_jwt_auth import AuthJWT
